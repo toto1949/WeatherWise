@@ -1,0 +1,64 @@
+# Xcode
+#
+# Build generated
+build/
+DerivedData/
+.idea/
+xcuserdata/
+
+# Core Data
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+
+# Xcode specific workspace data
+!default.xcworkspace
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Archives
+*.xcarchive
+
+# Swift PM Packages
+Packages/
+Package.pins
+Package.resolved
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Xcode Scheme
+*.xcscheme
+
+# App Packaging
+*.ipa
+*.dSYM.zip
+
+# Bundle artifacts
+*.xcresult
+
+# Local files
+*.local
+*.lock
+*.xcconfig
+
+# Other settings
+*.plist
