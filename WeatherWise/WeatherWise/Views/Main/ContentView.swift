@@ -5,14 +5,15 @@
 //  Created by Taooufiq El moutaoouakil on 10/7/24.
 //
 
+
+
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var locationManager = LocationManager()
+    
     var body: some View {
-      HomeView()
+        HomeView(viewModel: WeatherViewModel(locationManager: locationManager))
+            .environmentObject(locationManager)
     }
-}
-
-#Preview {
-    ContentView()
 }
